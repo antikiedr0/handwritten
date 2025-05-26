@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rozpoznawanie cyfr</title>
+  <style>
+    canvas {
+      border: 1px solid #ccc;
+      background: black;
+      cursor: crosshair;
+    }
+    #prediction {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>Narysuj cyfrę</h2>
+  <canvas id="canvas" width="280" height="280"></canvas>
+  <div id="prediction">Rozpoznana cyfra: ?</div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
